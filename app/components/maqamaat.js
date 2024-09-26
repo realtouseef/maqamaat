@@ -13,8 +13,6 @@ const Maqamaat = () => {
   const [selected, setSelected] = React.useState(maqamaat[0]);
   const { setUrl } = useUrlContext();
 
-  console.log({ selected });
-
   return (
     <>
       <div className="grid grid-cols-3 gap-5">
